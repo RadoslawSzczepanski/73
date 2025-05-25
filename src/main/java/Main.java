@@ -14,7 +14,9 @@ public class Main {
     System.out.print("Podaj liczbę 5: ");
     int e = liczba.nextInt();
     int suma = a + b + c + d + e;
-    System.out.println("Suma: %s", suma);
+    System.out.println("Suma: " + suma);
+    double srednia = suma / 5.0;
+    System.out.printf("Średnia: %.2f", srednia);
     
 
 
